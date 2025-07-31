@@ -1,7 +1,4 @@
-const fromDollarToYen = require('./app.js');
-const fromEuroToDollar = require('./app.js');
-const fromYenToPound = require('./app.js');
-const oneEuroIs = require('./app.js')
+const {fromDollarToYen, fromEuroToDollar, fromYenToPound} = require('./app.js');
 test('Dolar to Yen', () => {
     let dollars = fromDollarToYen(10);
     expect(dollars).toBe(1462.6168224299065);
